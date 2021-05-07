@@ -3,7 +3,6 @@ Write a program that takes User Inputs and does Unit Conversion of different Len
 1. Feet to Inch         3. Inch to Feet
 2. Feet to Meter        4. Meter to Feet
 */
-var prompt;
 console.log("1. Feet to inch \n" +"2. Feet to meter \n" + "3. Inch to feet \n" +"4. Meter to feet");
 var choice = parseInt(prompt("Enter your choice: "));
 var len;
