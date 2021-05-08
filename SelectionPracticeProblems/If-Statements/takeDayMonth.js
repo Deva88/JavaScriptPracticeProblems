@@ -3,6 +3,7 @@ Write a program that takes day and month from the command line and prints true i
 day of month is between March 20 and June 20, false otherwise.
 */
 var prompt = require('prompt-sync')();
+
 var month = prompt('Enter Month Here: (eg. March)');
 var day = prompt('Enter Date Here: (eg. 15)');
 if  (month == "March" && day >20 ) {
